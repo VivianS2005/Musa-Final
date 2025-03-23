@@ -1,0 +1,813 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar {
+    background-color: #000; 
+    font-family: 'Segoe UI', sans-serif; 
+	font-size: 20px;
+}
+
+
+.nav-link {
+    color: #fff; 
+}
+
+.navbar-nav .nav-link.active {
+    color: #AECDDF;
+    font-weight: bold;
+	font-size: 25px;
+}
+
+header .navbar-nav .nav-link:hover {
+    color: #83D3FF; 
+}
+
+#Dieta, #Tutoriales, #Grammy2 {
+background-color: #AECDDF;
+border-radius: 10px;	
+}
+
+#Articulo2 {
+background-color: #AECDDF;
+border-radius: 10px;	
+}
+
+#Articulo2 img{
+	margin-top: 15px;
+}
+
+#subtemas1, #subtemas2,#Titulo1 {
+    margin-top: 15px; 
+}
+
+#Carrusel3 {
+	margin-top: 70px; 
+}
+
+#Autor .container {
+    display: flex; 
+	justify-content: flex-start;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#Autor .row{
+	width: 75%;
+}
+
+#Informaton .row{
+	width: 75%;
+}
+
+
+#Video_1 .row{
+	width: 100%;
+	align-items: center;
+	
+}
+
+#Video_1 .cotainer{
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#subtemas1, #subtemas2, #M1, #M2, 
+#M3, #M4, #M5, #B1, 
+#B2, #B3, #B4, #B5, 
+#C1, #C2, #C3, #C4, 
+#C5 #E1, #E2, #E3,
+#E4, #E5 {
+    background-color: #FFFFFF; 
+}
+
+
+#subtemas1 .navbar {
+    background-color: #FFFFFF; 
+}
+
+#subtemas1 .navbar-nav .nav-link {
+    color: #000000; 
+}
+
+#subtemas1 .navbar-nav .nav-link:hover {
+    color: #ea2b1f; 
+}
+
+#subtemas2 .navbar {
+    background-color: #FFFFFF;
+}
+
+#subtemas2 .navbar-nav .nav-link {
+    color: #000000; 
+}
+
+#subtemas2 .navbar-nav .nav-link:hover {
+    color: #ea2b1f; 
+}
+
+#subtemas2 .navbar-nav .nav-link.active {
+    color: #ea2b1f;
+    font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+#B4 h2, #T1 h2 {
+    text-align: center;
+	margin-top: 100px;
+}
+
+#E6 h2 {
+    text-align: center;
+	margin-top: 75px;
+}
+
+#Autor h4 {
+	margin-top: 35px;
+	font-family: "Belleza", serif;
+	  font-size: 60px;
+	
+}
+
+#Autor h6 {
+	font-family: "Belleza", serif;
+	  font-size: 30px;
+	
+}
+
+#Informacion p {
+	margin-top: 15px;
+	font-family: "Jost", serif;
+	  font-size: 20px;
+}
+
+#Informacion2 p {
+	margin-top: 15px;
+	font-family: "Jost", serif;
+	  font-size: 20px;
+}
+
+#M2, #M3, #M4, #M5,
+#B2, #B3, #B4, #B5,
+#C2, #C3, #C4, #C5,
+#E2, #E3, #E4, #E5,
+#E7, #E8, #E9, #E10,
+#V2, #V3, #V4, #T3, 
+#T4, #T5{
+	margin-top: 15px;
+}
+
+#Informacion2, #Articulo2, #Moda2{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+
+#T2, #V5 {
+	margin-top: 15px;
+}
+
+#E8 h2, #M4 h2{
+    text-align: center;
+	margin-top: 90px;
+}
+
+#E9 h2 {
+    text-align: center;
+	margin-top: 35px;
+}
+
+#M3 h2{
+	text-align: center;
+	margin-top: 105px;
+}
+
+#V3 h2, #E1 h2, #E3 h2,
+#E4 h2, #C4 h2, #C3 h2,
+#C1 h2, #B3 h2, #B1 h2,
+#M1 h2 {
+    text-align: center;
+	margin-top: 150px;
+}
+
+#V4 h2, #T3 h2, #T4 h2 {
+    text-align: center;
+	margin-top: 90px;
+}
+
+
+#Video_1, #Titulo3  {
+	margin-top: 80px;
+}
+
+#Autor img{
+	border-radius: 500px;
+	width: 200 ;
+	height: 200px;
+}
+
+.btn-custom {
+	background-color: black;
+	color: #FFFFFF;
+    padding: 15px 30px; 
+    font-size: 18px;
+	 width: 35%;
+}
+
+
+ #subtemas1 h2, #subtemas2 h2 {
+	 font-family: "Prata", serif;
+	  font-size: 80px;
+}
+
+ #Titulo1 h2 {
+	 font-family: "Prata", serif;
+	  font-size: 80px;
+}
+
+ #Titulo3 h2 {
+	 font-family: "Prata", serif;
+	  font-size: 55px;
+	 margin-bottom: 45px;
+}
+
+#hero h2 {
+	 font-family: "Prata", serif;
+	  font-size: 60px;
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+#hero p {
+	 font-family: "Jost", sans-serif;
+	  font-size: 15px;
+}
+
+#Video_1 h2 {
+	 font-family: "Prata", serif;
+	  font-size: 45px;
+	color: #000000;
+	text-align: left;	
+	margin-top: 15px;
+}
+
+#V1 h2 {
+	 font-family: "Prata", serif;
+	  font-size: 50px;
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+#Noticias h2, #Tutoriales h2,
+#Dieta h2, #Grammy h2, #Carrusel3 h2,
+#Grammy2 h2, #Moda2 h2 {
+	font-family: "Prata", serif;
+	  font-size: 50px;
+	margin-bottom: 20px;
+	color: #000000;
+}
+
+#Dieta h2, #Tutoriales h2, #Grammy2 h2 {
+	margin-top: 20px;
+}
+
+#Noticias h5, #Tutoriales h5,
+#Dieta h5, #Grammy h5, #Carrusel3 h5, 
+#Grammy2 h5, #Moda2 h5{
+	font-family: "Belleza", sans-serif;
+	  font-size: 20px;
+	margin-top: 10px;
+	color: #000000;
+}
+
+#M1 h2, #M3 h2,#M4 h2,
+#B1 h2, #B3 h2,#B4 h2,
+#C1 h2, #C3 h2,#C4 h2,
+#E1 h2, #E3 h2,#E4 h2, 
+#E6 h2, #E8 h2,#E9 h2,
+#V3 h2,#V4 h2, #T1 h2, 
+#T3 h2,#T4 h2 {
+	font-family: "Prata", serif;
+	  font-size: 45px;
+	color: #000000;
+}
+
+
+#M2 h3, #M5 h3,#B2 h3, #B5 h3, 
+#C2 h3, #C5 h3, #E2 h3, #E5 h3,
+#E7 h3, #E10 h3, #V2 h3, #V5 h3, 
+#Video_1 h3, #T2 h3, #T5 h3 {
+	font-family: "Prata", serif;
+	  font-size: 25px;
+	margin-top: 15px;
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+}
+
+#Video_1 h5{
+	margin-top: 5px;
+	font-family: "Belleza", serif;
+	  font-size: 14px;
+	text-align: center;
+	color: #000000;
+}
+
+#Informacion h2 {
+	
+	font-family: "Prata", serif;
+	  font-size: 45px;
+	color: #000000;
+}
+
+#Informacion2 h2 {
+	font-family: "Prata", serif;
+	  font-size: 50px;
+	color: #000000;
+}
+
+#Informacion h5{;
+	margin-top: 15px;
+	font-family: "Belleza", serif;
+	  font-size: 14px;
+	text-align: center;
+	color: #000000;
+}
+
+#Video_1 li{
+	margin-top: 10px;
+}
+
+#Autor hr{
+	 border: none;               
+    border-top: 5px solid #000;
+	 border-bottom: 5px solid #000;
+}
+
+#Informacion hr{
+	margin-left: auto; 
+    margin-right: 0;
+	 border: none;               
+    border-top: 5px solid #000;
+	 border-bottom: 5px solid #000;
+}
+
+#Articulo2 h2 {
+	 font-family: "Prata", serif;
+	  font-size: 45px;
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+#Articulo2 h6 {
+	 font-family: "Jost", sans-serif;
+	  font-size: 15px;
+}
+
+
+#hero h2:hover{
+color: #ea2b1f;
+}
+
+#Dieta h5:hover{
+color: #266C95;
+}
+
+#Videos h5:hover{
+color: #266C95;
+}
+
+#Noticias h5:hover{
+color: #ea2b1f;
+}
+
+#Grammy h5:hover{
+color: #ea2b1f;
+}
+
+#Grammy2 h5:hover{
+color: #266C95;
+}
+
+#Video_1 h5:hover{
+color: #ea2b1f;
+}
+
+#Articulo2 h2:hover{
+color: #266C95;
+}
+
+#Moda2 h5:hover{
+color: #ea2b1f;
+}
+
+#M1 h2:hover{
+color: #ea2b1f;
+}
+
+#M3 h2:hover{
+color: #ea2b1f;
+}
+
+#M4 h2:hover{
+color: #ea2b1f;
+}
+
+#B1 h2:hover{
+color: #ea2b1f;
+}
+
+#B3 h2:hover{
+color: #ea2b1f;
+}
+
+#B4 h2:hover{
+color: #ea2b1f;
+}
+
+#C1 h2:hover{
+color: #ea2b1f;
+}
+
+#C3 h2:hover{
+color: #ea2b1f;
+}
+
+#C4 h2:hover{
+color: #ea2b1f;
+}
+
+#E1 h2:hover{
+color: #ea2b1f;
+}
+
+#E3 h2:hover{
+color: #ea2b1f;
+}
+
+#E4 h2:hover{
+color: #ea2b1f;
+}
+
+#E6 h2:hover{
+color: #ea2b1f;
+}
+
+#E8 h2:hover{
+color: #ea2b1f;
+}
+
+#E9 h2:hover{
+color: #ea2b1f;
+}
+
+#V1 h2:hover{
+color: #ea2b1f;
+}
+
+#V3 h2:hover{
+color: #ea2b1f;
+}
+
+#V4 h2:hover{
+color: #ea2b1f;
+}
+
+#T1 h2:hover{
+color: #ea2b1f;
+}
+
+#T3 h2:hover{
+color: #ea2b1f;
+}
+
+#T4 h2:hover{
+color: #ea2b1f;
+}
+
+#M5 h3:hover {
+  color: #ea2b1f; 
+}
+
+#B2 h3:hover {
+  color: #ea2b1f; 
+}
+
+#B5 h3:hover {
+  color: #ea2b1f; 
+}
+
+#C2 h3:hover {
+  color: #ea2b1f; 
+}
+
+#C5 h3:hover {
+  color: #ea2b1f; 
+}
+
+#E2 h3:hover {
+  color: #ea2b1f; 
+}
+
+#E5 h3:hover {
+  color: #ea2b1f; 
+}
+
+#E8 h3:hover {
+  color: #ea2b1f; 
+}
+
+#E10 h3:hover {
+  color: #ea2b1f; 
+}
+
+#V2 h3:hover {
+  color: #ea2b1f; 
+}
+
+#V5 h3:hover {
+  color: #ea2b1f; 
+}
+
+#T2 h3:hover {
+  color: #ea2b1f; 
+}
+
+#T5 h3:hover {
+  color: #ea2b1f; 
+}
+
+
+    
+.btn-custom {
+	font-family: "Jost", sans-serif;
+	  font-size: 25px;
+}
+
+.btn-custom:hover {
+    background-color: #ea2b1f; 
+    color: #FFFFFF; 
+}
+
+
+.btn-custom:active {
+    background-color: #ea2b1f; 
+    color: #FFFFFF; 
+}
+
+hr {
+    border: none;               
+    border-top: 15px solid #000;
+	 border-bottom: 15px solid #000; 
+	opacity: 1;
+}
+
+.section-title { 
+	font-size: 24px; 
+	font-weight: bold; 
+	margin: 20px 0; 
+}
+	
+#hero, #Noticias, #Grammy {
+	background-color: #FFFFFF
+}
+
+footer{
+background-color: #000000;	
+color:#FFF;	
+padding-top: 10px;
+text-align: center;
+padding-bottom: 10px;
+}
+
+h6 a {
+  color: #FFFFFF; 
+  text-decoration: none;
+}
+
+h6 a:hover {
+  color: #FFFFFF; 
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1200px) {
+    #hero h2 {
+        font-size: 50px; 
+    }
+
+    .btn-custom {
+        font-size: 22px; 
+        width: 40%; 
+    }
+
+    #subtemas1 h2, #subtemas2 h2, #Titulo1 h2 {
+        font-size: 60px; 
+    }
+
+    #Autor img {
+        width: 180px; 
+        height: 180px;
+    }
+
+    #Informacion h2 {
+        font-size: 40px; 
+    }
+	
+	#Noticias img {
+        width: 80%;
+        max-width: 500px;
+		align-items: center;
+	}
+	
+	
+	#M1 h2, #M3 h2, #M4 h2, 
+    #B1 h2,
+	#V3 h2, #V4 h2{
+         font-size: 25px; 
+        margin-top: 25px;
+        text-align: center;
+    }
+	
+	#B4 h2 {
+         font-size: 25px; 
+        margin-top: 45px;
+        text-align: center;
+    }
+	
+	#B3 h2 {
+         font-size: 25px; 
+        margin-top: 75px;
+        text-align: center;
+    }
+	
+	#C1 h2, #C3 h2, #C4 h2{
+         font-size: 25px; 
+        margin-top: 85px;
+        text-align: center;
+    }
+	
+	#E1 h2, #E3 h2, #E4 h2{
+         font-size: 25px; 
+        margin-top: 85px;
+        text-align: center;
+    }
+	
+	 #hero img {
+        max-width: 700px; 
+        max-height: 550px;  
+        margin: 0 auto; 
+        display: block; 
+    }
+
+    #anuncio img {
+        max-width: 700px; 
+        max-height: 550px;  
+        margin: 0 auto; 
+        display: block; 
+    }
+
+    #V1 img {
+        max-width: 700px; 
+        max-height: 550px; 
+        margin: 0 auto; 
+        display: block;
+    }
+	
+	#Video_1 iframe { 
+        max-width: 780px; 
+		height: 525px;
+		  align-items: center;
+	}
+
+	#image1 {
+		max-width: 380px; 
+		max-height: 190px;
+	}
+	
+	#image2 {
+		max-width: 340px; 
+		max-height: 225px;
+	}
+	
+	#image3 {
+		max-width: 380px; 
+		max-height: 330px;
+	}
+	
+	#image4 {
+		max-width: 340px; 
+		max-height: 255px;
+	}
+	
+	#image5 {
+		max-width: 340px; 
+		max-height: 255px;
+	}
+	
+	#image6 {
+		max-width: 340px; 
+		max-height: 255px;
+	}
+	
+	#C1 img, #C2 img, #C3 img, 
+	#C4 img, #C5 img {
+		max-width: 340px; 
+		max-height: 285px;
+	}
+	
+	#E1 img, #E2 img, #E3 img, 
+	#E4 img, #E5 img {
+		max-width: 340px; 
+		max-height: 285px;
+	}
+	
+	#Moda2 img{
+		max-width: 155px;
+		max-height: 185px;
+	}
+	
+	#B1 img{
+		max-width: 340px; 
+		max-height: 285px;
+	}
+}
+
+/* Celular */
+@media (max-width: 600px) {
+    #hero h2 {
+        font-size: 40px;
+    }
+
+    .btn-custom {
+        font-size: 20px;
+        width: 60%; 
+    }
+
+    #subtemas1 h2, #subtemas2 h2, #Titulo1 h2 {
+        font-size: 40px;
+    }
+
+    #Autor img {
+        width: 150px; 
+        height: 150px;
+    }
+
+    #Informacion h2 {
+        font-size: 35px; 
+    }
+	
+	  #Noticias img {
+        width: 90%; 
+        max-width: 400px; 
+		  align-items: center;
+    }
+	
+	#M1 h2, #M3 h2, #M4 h2, 
+    #B1 h2, #B3 h2, #B4 h2, 
+    #C1 h2, #C3 h2, #C4 h2, 
+    #E1 h2, #E3 h2, #E4 h2, 
+    #V3 h2, #V4 h2 {
+        font-size: 30px; 
+        margin-top: 15px;
+        text-align: center;
+    }
+	
+	#hero img {
+        width: 600px; 
+        height:150px; 
+        margin: 0 auto; 
+        display: block; 
+    }
+
+    #anuncio img {
+        width: 600px; 
+        height:150px; 
+        margin: 0 auto; 
+        display: block; 
+    }
+
+    #V1 img {
+        width: 600px; 
+        height:450px; 
+        margin: 0 auto; 
+        display: block; 
+    }
+	
+	#Video_1 iframe { 
+        max-width: 545px; 
+		height: 325px;
+		  align-items: center;
+	}
+	
+}
+
